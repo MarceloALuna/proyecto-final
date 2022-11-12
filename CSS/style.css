@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image: url(../IMG/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#headerLogo {
+    gap: 5px;
+    justify-content: center;
+}
+.inicio {
+    text-align: center;
+    display: block;
+}
+.inicio img {
+    display: block;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    margin: 50px auto 50px;
+    padding: 50px auto 50px;
+}
+h1 {
+    font-size: 70px;
+    font-style: italic;
+    color: rgb(10, 75, 10);
+    display: inline;
+    font-family: fantasy;
+    width: 100%;
+    text-align: center;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+}
+#menu nav ul li a {
+    text-decoration: none;
+    background-color: rgb(13, 104, 36);
+    margin: 0 10px;
+    padding: 5px;
+    color: white;
+    border: double;
+    border-color: black;
+}
+#menu nav ul li a:hover {
+    background-color: rgb(6, 59, 18);
+    color: aquamarine;
+}
+h2 {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 20px ;
+    font-size: 30px;
+}
+h3 {
+    margin: 5px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#videoInfo {
+    margin: 10px;
+    padding: 50px 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.video  {
+    font-size: 20px;
+    color: azure;
+}
+.video h3 {
+    background-color: rgb(10, 75, 10);
+    border: double;
+}
+.video p {
+    background-color: rgb(10, 75, 10);
+    border: double;
+}
+.footer {
+    background-color: rgb(13, 104, 36);
+    color: whitesmoke;
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+}
+.footerImg {
+    display: inline;
+}
+.footer div p {
+    display: inline;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contacto {
+    box-sizing: border-box;
+    display: block;
+    margin: 50px 400px;
+    padding: 50px 50px;
+    border: double;
+    color: black;
+    font-family: fantasy;
+    text-align: center;   
+}
+.contactFormat {
+    display: inline;
+}
+.ubicacion {
+    margin: 10px;
+    padding: 50px 400px;
+    text-align: center;
+}
+.ubicacion p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+.sucus div {
+    background-color: rgb(13, 104, 36);
+    padding: 5px;
+    margin: 50px 400px;
+    border: double;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sucus h4 {
+    font-size: 25px;
+    color: azure;
+    margin: 5px;
+}
+.sucus div p {
+    color: azure;
+    margin: 5px;
+}
+#cuidados {
+    margin: 5px;
+    padding: 50px 350px;
+}
+#cuidados div h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(13, 104, 36);
+    border: double;
+    color: darkblue;
+}
+#cuidados div p {
+    background-color: rgb(13, 104, 36);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: double;
+    margin: 15px;
+    padding: 10px;
+}
+.cuidadosTruco p {
+    font-style: oblique;
+    color: azure;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../IMG/doña-luna-logo3.png" type="image/x-icon">
+</head>
+<body>
+    <header id="headerLogo">
+        <div class="inicio">
+            <img class="ini" src="../IMG/doña-luna-logo.png" height="300px" alt="Logoder">
+            <h1 class="ini">Vivero Doña Luna</h1>
+        </div>
+    </header>
+    <section id="menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="../pages/tipos-de-sucus.html">Tipos de Sucus</a>
+                </li>
+                <li>
+                    <a href="../pages/cuidados.html">Cuida tus sucus</a>
+                </li>
+                <li>
+                    <a href="../pages/contacto.html">Contacto</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </section>
+    <form action="enviar.php" method="get">
+        <fieldset class="contacto">
+            <legend>Datos de Contacto</legend>
+            <div class="contactFormat">
+                <div>
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su e-mail" required>
+                </div>
+                <div>
+                    <label for="telefono">Numero de telefono</label>
+                    <input type="telefono" name="telefono" id="telefono" placeholder="Ingrese su telefono">
+                </div>
+                <div>
+                    <textarea name="multi" id="multi" cols="50" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </div>  
+        </fieldset>
+    </form> 
+    <footer class="footer">
+        <img class="footerImg" src="../IMG/doña-luna-logo3.png" alt="luna-logo" height="100px">
+        <div>
+            <p>Comuniquese con nosotros al:</p>
+            <p>011 5742-1374</p>
+        </div>
+        <div>
+            <p>Mansilla Nro 1329, Ezeiza, Buenos Aires</p>
+        </div>
+    </footer>
+</body>
+</html>
