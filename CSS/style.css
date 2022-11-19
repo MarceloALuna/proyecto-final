@@ -4,26 +4,19 @@
     margin: 0px;
 }
 body {
-    background-image: url(../IMG/Background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-color: rgb(205, 247, 233);
 }
 #headerLogo {
     gap: 5px;
     justify-content: center;
+    align-items: center;
 }
 .inicio {
     text-align: center;
-    display: block;
-}
-.inicio img {
-    display: block;
+    display: flex;
     align-items: center;
-    text-align: justify;
     justify-content: center;
-    margin: 50px auto 50px;
-    padding: 50px auto 50px;
+    margin: 30px;
 }
 h1 {
     font-size: 70px;
@@ -31,7 +24,6 @@ h1 {
     color: rgb(10, 75, 10);
     display: inline;
     font-family: fantasy;
-    width: 100%;
     text-align: center;
 }
 ul {
@@ -50,12 +42,72 @@ ul {
     margin: 0 10px;
     padding: 5px;
     color: white;
-    border: double;
-    border-color: black;
+    border: solid;
+    border-color: rgb(1, 49, 16);
+    border-radius: 20px 20px 20px 5px;
+    border-style: inset;
 }
 #menu nav ul li a:hover {
-    background-color: rgb(6, 59, 18);
+    background-color: rgb(11, 4, 105);
     color: aquamarine;
+}
+#menu-inicio {
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-variant: normal;
+}
+@media (min-width: 1200px) {
+    #menu-inicio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 150px;
+    }
+}
+#menu-inicio :hover {
+    background: radial-gradient(green, black);
+    font-size: 60px;
+}
+#menu-inicio .menu-nos {
+    margin: 10px;
+    border: 4px solid rgb(1, 49, 16);
+    border-radius: 10px;
+    border-style: inset;
+    padding: 20px;
+    background-image: url(../IMG/sucuMenu1.jpg);
+    background-size: cover;
+}
+#menu-inicio .menu-tipo {
+    margin: 10px;
+    border: 4px solid rgb(1, 49, 16);
+    border-radius: 10px;
+    border-style: inset;
+    padding: 20px;
+    background-image: url(../IMG/sucuMenu2.jpg);
+    background-size: cover;
+}
+#menu-inicio .menu-cuid {
+    margin: 10px;
+    border: 4px solid rgb(1, 49, 16);
+    border-radius: 10px;
+    border-style: inset;
+    padding: 20px;
+    background-image: url(../IMG/sucuMenu3.jpg);
+    background-size: cover;
+}
+#menu-inicio .menu-cont {
+    margin: 10px;
+    border: 4px solid rgb(1, 49, 16);
+    border-radius: 10px;
+    border-style: inset;
+    padding: 20px;
+    background-image: url(../IMG/sucuMenu.jpg);
+    background-size: cover;
 }
 h2 {
     display: block;
@@ -63,6 +115,7 @@ h2 {
     margin: 10px;
     padding: 20px ;
     font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h3 {
     margin: 5px;
@@ -70,22 +123,41 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #videoInfo {
-    margin: 10px;
-    padding: 50px 400px;
+    margin: 25px;
+    padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    align-items: start;
 }
 .video  {
-    font-size: 20px;
+    font-size: 15px;
     color: azure;
+    justify-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+@media (min-width: 1200px) {
+    .video {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
 }
 .video h3 {
     background-color: rgb(10, 75, 10);
-    border: double;
+    border: 4px solid rgb(1, 49, 16);
+    border-radius: 10px;
+    border-style: inset;
+    align-items: start;
+    
 }
 .video p {
     background-color: rgb(10, 75, 10);
-    border: double;
+    border: 4px solid rgb(1, 49, 16);
+    border-radius: 10px;
+    border-style: inset;
+    font-size: 12px;
+    margin: 5px;
 }
 .footer {
     background-color: rgb(13, 104, 36);
@@ -152,15 +224,20 @@ h3 {
     margin: 5px;
     padding: 5px;
     background-color: rgb(13, 104, 36);
-    border: double;
-    color: darkblue;
+    color: rgb(253, 253, 254);
+    border: 4px solid rgb(1, 49, 16);
+    border-radius: 10px;
+    border-style: inset;
 }
 #cuidados div p {
     background-color: rgb(13, 104, 36);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: double;
     margin: 15px;
     padding: 10px;
+    color: antiquewhite;
+    border: 4px solid rgb(1, 49, 16);
+    border-radius: 10px;
+    border-style: inset;
 }
 .cuidadosTruco p {
     font-style: oblique;
