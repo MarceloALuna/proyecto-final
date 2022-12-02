@@ -4,8 +4,8 @@
   margin: 0px;
 }
 
-body {
-  background-color: rgb(205, 247, 233);
+body.backG {
+  background-color: #cdf7e9;
 }
 
 #headerLogo {
@@ -60,37 +60,37 @@ h3 {
   font-size: 60px;
 }
 #menu-inicio .menu-nos {
-  margin: 10px;
   border: 4px solid rgb(1, 49, 16);
   border-radius: 10px;
   border-style: inset;
+  margin: 10px;
   padding: 20px;
   background-image: url(../IMG/sucuMenu1.jpg);
   background-size: cover;
 }
 #menu-inicio .menu-tipo {
-  margin: 10px;
   border: 4px solid rgb(1, 49, 16);
   border-radius: 10px;
   border-style: inset;
+  margin: 10px;
   padding: 20px;
   background-image: url(../IMG/sucuMenu2.jpg);
   background-size: cover;
 }
 #menu-inicio .menu-cuid {
-  margin: 10px;
   border: 4px solid rgb(1, 49, 16);
   border-radius: 10px;
   border-style: inset;
+  margin: 10px;
   padding: 20px;
   background-image: url(../IMG/sucuMenu3.jpg);
   background-size: cover;
 }
 #menu-inicio .menu-cont {
-  margin: 10px;
   border: 4px solid rgb(1, 49, 16);
   border-radius: 10px;
   border-style: inset;
+  margin: 10px;
   padding: 20px;
   background-image: url(../IMG/sucuMenu.jpg);
   background-size: cover;
@@ -137,17 +137,17 @@ h3 {
   padding-top: 20px;
 }
 #videoInfo .video h3 {
-  background-color: rgb(10, 75, 10);
   border: 4px solid rgb(1, 49, 16);
   border-radius: 10px;
   border-style: inset;
+  background-color: rgb(10, 75, 10);
   align-items: start;
 }
 #videoInfo .video p {
-  background-color: rgb(10, 75, 10);
   border: 4px solid rgb(1, 49, 16);
   border-radius: 10px;
   border-style: inset;
+  background-color: rgb(10, 75, 10);
   font-size: 12px;
   margin: 5px;
 }
@@ -156,7 +156,6 @@ h3 {
   background-color: rgb(13, 104, 36);
   color: whitesmoke;
   text-align: center;
-  margin: 5px;
   padding: 40px;
 }
 .footer.footerImg {
@@ -168,22 +167,37 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.formDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contacto {
+  border: 4px solid rgb(1, 49, 16);
+  border-radius: 10px;
+  border-style: inset;
   box-sizing: border-box;
   display: block;
-  margin: 50px 400px;
+  margin: 50px 50px;
   padding: 50px 50px;
-  border: double;
   color: black;
   font-family: fantasy;
   text-align: center;
 }
 .contacto.contactFormat {
   display: inline;
+  line-height: 1.5px;
+}
+.contacto fieldset div .mensajeArea {
+  padding: 10px;
 }
 
 .ubicacion {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 10px;
   padding: 30px;
   text-align: center;
@@ -211,14 +225,14 @@ h3 {
   border-style: inset;
 }
 #cuidados div p {
+  border: 4px solid rgb(1, 49, 16);
+  border-radius: 10px;
+  border-style: inset;
   background-color: rgb(13, 104, 36);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 15px;
   padding: 10px;
   color: antiquewhite;
-  border: 4px solid rgb(1, 49, 16);
-  border-radius: 10px;
-  border-style: inset;
 }
 #cuidados.cuidadosTruco p {
   font-style: oblique;
@@ -226,19 +240,30 @@ h3 {
 }
 
 @media (max-width: 767px) {
+  h1 {
+    font-size: 50px;
+  }
   .ubicacion iframe {
     width: 400px;
     height: 250px;
   }
   .video iframe {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
   }
   #menu-inicio {
     font-size: 30px;
   }
   #menu-inicio :hover {
     font-size: 40px;
+  }
+  #menu nav ul {
+    gap: 5px;
+    padding: 5px;
+  }
+  #menu nav ul li a {
+    margin: 5px;
+    font-size: 12px;
   }
 }
 @media (min-width: 768px) {

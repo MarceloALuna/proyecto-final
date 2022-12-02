@@ -1,17 +1,28 @@
 @media (max-width: 767px) {
+    h1 {
+        font-size: 50px;
+    }
     .ubicacion iframe {
         width: 400px;
         height: 250px;
     }
     .video iframe {
-        width: 400px;
-        height: 250px;
+        width: 350px;
+        height: 200px;
     }
     #menu-inicio {
         font-size: 30px;
     }
     #menu-inicio :hover {
         font-size: 40px;
+    }
+    #menu nav ul {
+        gap: 5px;
+        padding: 5px;
+        & li a {
+            margin: 5px;
+            font-size: 12px;
+        }
     }
 }
 @media (min-width: 768px) {

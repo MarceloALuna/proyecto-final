@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../SASS/main.css">
     <link rel="shortcut icon" href="../IMG/doña-luna-logo3.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
-<body>
+<body class="backG">
     <header id="headerLogo">
         <div class="inicio">
             <img class="ini" src="../IMG/doña-luna-logo.png" height="300px" alt="Logoder">
-            <h1 class="ini">Vivero Doña Luna</h1>
+            <h1>Vivero Doña Luna</h1>
         </div>
     </header>
     <section id="menu">
@@ -39,51 +40,93 @@
             </ul>
         </nav>
     </section>
-    <article id="cuidados">
-        <div>
-            <h2>Como cuidar tus sucus</h2>
-            <p>Las suculentas se han convertido en las plantas favoritas de muchas personas debido a su belleza y cuidados simples. Además son ideales para decorar pequeños espacios. Sin embargo, con regularidad los que adquieren una suculenta se olvidan o desconocen que es una planta de tierra árida, que requiere luz y  poca agua entre otros cuidados diferentes de las plantas que solemos ver. Los cuidados de las suculentas son sencillos pero fundamentales, a continuación te hablamos de ellos para que puedas disfrutar de la belleza de este tipo de plantas.</p>
+    <article>
+        <div class="card m-5 .bg-succes">
+            <div class="card-body">
+              <h5 class="card-title">Como cuidar tus sucus</h5>
+              <p class="card-text">Las suculentas se han convertido en las plantas favoritas de muchas personas debido a su belleza y cuidados simples. Además son ideales para decorar pequeños espacios. Sin embargo, con regularidad los que adquieren una suculenta se olvidan o desconocen que es una planta de tierra árida, que requiere luz y  poca agua entre otros cuidados diferentes de las plantas que solemos ver. Los cuidados de las suculentas son sencillos pero fundamentales, a continuación te hablamos de ellos para que puedas disfrutar de la belleza de este tipo de plantas.</p>
+            </div>
         </div>
-        <div>
-            <h2>Agua necesaria</h2>
-            <p>Uno de los principales cuidados para todo tipo de planta es el riego, sin embargo con las suculentas solemos olvidar - o desconocemos - que sus necesidades de agua son reducidas. Este error es el que suele matarlas ya que olvidamos que el exceso de riego es mortal para ellas. Pero eso no significa que no debamos regarla, solo que debemos hacerlo con moderación. Por ejemplo, en los meses de calor podemos hacer un riego por semana, mientras que los meses de frío, no se necesitará más de un riego cada quince días para mantenerlas vivas. No olvides que las plantas suculentas son capaces de absorber la humedad del ambiente y retenerla en sus hojas, tallos y raíces.</p>
-        </div>    
-        <div class="cuidadosTruco">
-            <p><Span style="background-color: darkblue; font-family: cursive; font-style: oblique;">Truco:</Span>Introduce un palito de madera dentro de la maceta de tu planta, luego retíralo y observa si se ha impregnado de tierra, en caso de salir limpio será mejor que riegues tu suculenta.</p>
+        <div class="accordion m-5" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Agua necesaria
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                    Uno de los principales cuidados para todo tipo de planta es el riego, sin embargo con las suculentas solemos olvidar - o desconocemos - que sus necesidades de agua son reducidas. Este error es el que suele matarlas ya que olvidamos que el exceso de riego es mortal para ellas. Pero eso no significa que no debamos regarla, solo que debemos hacerlo con moderación. Por ejemplo, en los meses de calor podemos hacer un riego por semana, mientras que los meses de frío, no se necesitará más de un riego cada quince días para mantenerlas vivas. No olvides que las plantas suculentas son capaces de absorber la humedad del ambiente y retenerla en sus hojas, tallos y raíces.
+                    <p></p><Span style="background-color: #21dfec; font-family: cursive; font-style: oblique;">Truco:</Span>Introduce un palito de madera dentro de la maceta de tu planta, luego retíralo y observa si se ha impregnado de tierra, en caso de salir limpio será mejor que riegues tu suculenta.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Un buen sustrato
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    Para no complicarse se pueden adquirir los que venden en las tiendas especializadas, aunque éstos suelen estar faltos de abono y fertilizantes minerales, sin embargo las suculentas no necesitan un sustrato rico en minerales, sino más bien, uno con tierras de textura arenosa, por lo que será una buena idea mezclar el sustrato con arena. También evita que el sustrato que elijas contenga un exceso de arcilla, ya que esto hará que permanezca húmedo y en consecuencia ahogar las raíces. La recomendación en cuanto al mejor sustrato sería uno poroso, para garantizar la ventilación y que se seque en un tiempo relativamente corte (1-2 días) y con partículas de tamaño relativamente grandes.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Un adecuado drenaje
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                    Aunque el riego debe ser con abundante agua (hasta que infiltre por los agujeros), es fundamental que las plantas suculentas tengan un buen drenaje que permita eliminar el exceso de agua. La maceta que elijas también dictará el modo de riego y drenaje, por ejemplo; las macetas de arcilla, mantienen frescas las raíces y secan más rápido después de un riego. Mientras que las macetas de plástico, conservando la humedad por más tiempo y tienen menos ventilación, por tal razón se requiere hacerle agujeros adicionales en los bordes laterales o por debajo para eliminar el exceso de agua. La maceta se recomienda que sea proporcional al tamaño de la planta.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    Mucha luz
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    La luz que recibe -y cómo la recibe- es primordial para el cuidado de las suculentas; aunque son plantas que requieren del sol, éstas no deben estar expuestas al sol directo y mucho menos en los meses tan calurosos como el verano. Las suculentas deben ser expuestas a media luz; con que reciban unas 5 ó 6 horas al días de luz será suficiente (pero no de forma directa a los rayos del sol). Para que tu planta reciba la luz adecuada puedes colocarla cerca de una ventana, en algún pasillo luminoso o en un espacio con tragaluz. Una parte del verano deben pasarla al aire libre para que los brotes marchitos puedan mejorar al aire libre.
+                  </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <h2>Un buen sustrato</h2>
-            <p>Para no complicarse se pueden adquirir los que venden en las tiendas especializadas, aunque éstos suelen estar faltos de abono y fertilizantes minerales, sin embargo las suculentas no necesitan un sustrato rico en minerales, sino más bien, uno con tierras de textura arenosa, por lo que será una buena idea mezclar el sustrato con arena. También evita que el sustrato que elijas contenga un exceso de arcilla, ya que esto hará que permanezca húmedo y en consecuencia ahogar las raíces. La recomendación en cuanto al mejor sustrato sería uno poroso, para garantizar la ventilación y que se seque en un tiempo relativamente corte (1-2 días) y con partículas de tamaño relativamente grandes.</p>
-        </div>
-        <div>
-            <h2>Un adecuado drenaje</h2>
-            <p>Aunque el riego debe ser con abundante agua (hasta que infiltre por los agujeros), es fundamental que las plantas suculentas tengan un buen drenaje que permita eliminar el exceso de agua. La maceta que elijas también dictará el modo de riego y drenaje, por ejemplo; las macetas de arcilla, mantienen frescas las raíces y secan más rápido después de un riego. Mientras que las macetas de plástico, conservando la humedad por más tiempo y tienen menos ventilación, por tal razón se requiere hacerle agujeros adicionales en los bordes laterales o por debajo para eliminar el exceso de agua. La maceta se recomienda que sea proporcional al tamaño de la planta.</p>
-        </div>
-        <div>
-            <h2>Mucha luz</h2>
-            <p>La luz que recibe -y cómo la recibe- es primordial para el cuidado de las suculentas; aunque son plantas que requieren del sol, éstas no deben estar expuestas al sol directo y mucho menos en los meses tan calurosos como el verano. Las suculentas deben ser expuestas a media luz; con que reciban unas 5 ó 6 horas al días de luz será suficiente (pero no de forma directa a los rayos del sol). Para que tu planta reciba la luz adecuada puedes colocarla cerca de una ventana, en algún pasillo luminoso o en un espacio con tragaluz. Una parte del verano deben pasarla al aire libre para que los brotes marchitos puedan mejorar al aire libre.</p>
-        </div>
-        <div class="cuidadosTruco">
-            <p>Evita a toda costa la exposición directa al sol, ya que solo conseguirás deshidratarla y por consiguiente impedir que guarde las reservas de agua necesarias. Además esto puede hacer que las hojas se tornen rojas lo que a su vez significaría que se están quemando. En caso de notar que la tonalidad de sus hojas palidece, entonces será necesario buscarle una ubicación donde pueda recibir más luz, pero no de forma directa. Las suculentas son una buena opción para tener un pedacito de naturaleza en la casa u oficina, y su gran variedad te permitirá elegir las que vayan mejor con tu decoración o te ayuden a crear ambientes más acogedores.</p>
-        </div>
+        <div class="card m-5">
+            <div class="card-body">
+              <p class="card-text"><Span style="background-color: #21dfec; font-family: cursive; font-style: oblique;">Evita a toda costa la exposición directa al sol</span>, ya que solo conseguirás deshidratarla y por consiguiente impedir que guarde las reservas de agua necesarias. Además esto puede hacer que las hojas se tornen rojas lo que a su vez significaría que se están quemando. En caso de notar que la tonalidad de sus hojas palidece, entonces será necesario buscarle una ubicación donde pueda recibir más luz, pero no de forma directa. Las suculentas son una buena opción para tener un pedacito de naturaleza en la casa u oficina, y su gran variedad te permitirá elegir las que vayan mejor con tu decoración o te ayuden a crear ambientes más acogedores.</p>
+            </div>
+          </div>
     </article>
-    <form action="enviar.php" method="get" class="contacto">
-            <div>
-                <h3>Si llegaste hasta aca y todavia tenes dudas de como cuidar tus sucus mandanos una foto de tu plantita y una descripcion de tu duda...</h3>
-                <label for="adjunto">Adjuntar:</label>
-                <input type="file" name="adjunto" id="adjunto">
-            </div>
-        <fieldset class="">    
-            <legend>descripcion</legend>
-            <div>
-                <textarea name="multi" id="multi" cols="50" rows="10" placeholder="Ingrese su mensaje"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Cancelar">
-            </div>
-        </fieldset>
-    </form>
+    <div class="card m-5">
+        <div class="card-body">
+          <h5 class="card-title">Si llegaste hasta aca y todavia tenes dudas de como cuidar tus sucus mandanos una foto de tu plantita y una descripcion de tu duda...</h5>
+        </div>
+    </div>
+        <div>
+            <form action="enviar.php" method="get" class="formDisplay">
+                <div class="contacto">
+                    <label for="adjunto">Adjuntar:</label>
+                    <input type="file" name="adjunto" id="adjunto">
+                <fieldset>    
+                    <legend>Descripcion</legend>
+                    <div>
+                        <textarea class="mensajeArea" name="multi" id="multi" cols="50" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Cancelar">
+                    </div>
+                </fieldset>
+                </div>
+            </form>
+        </div>
     <footer class="footer">
         <img class="footerImg" src="../IMG/doña-luna-logo3.png" alt="luna-logo" height="100px">
         <div>
@@ -94,5 +137,6 @@
             <p>Mansilla Nro 1329, Ezeiza, Buenos Aires</p>
         </div>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>    
 </html>

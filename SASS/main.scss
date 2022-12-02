@@ -1,10 +1,13 @@
+
+@import 'mixin';
+
 * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
-body {
-    background-color: rgb(205, 247, 233);
+body.backG {
+    @include colorBack;
 }
 #headerLogo {
     gap: 5px;
@@ -135,7 +138,6 @@ h3 {
     background-color: rgb(13, 104, 36);
     color: whitesmoke;
     text-align: center;
-    margin: 5px;
     padding: 40px;
     &.footerImg {
         display: inline;
@@ -146,21 +148,33 @@ h3 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
+.formDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .contacto {
     @include borderInset;
     box-sizing: border-box;
     display: block;
-    margin: 50px 400px;
+    margin: 50px 50px;
     padding: 50px 50px;
     color: black;
     font-family: fantasy;
     text-align: center;
     &.contactFormat {
         display: inline;
+        line-height: 1.5px;
+    }
+    & fieldset div .mensajeArea {
+        padding: 10px;
     }
 }
 .ubicacion {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10px;
     padding: 30px;
     text-align: center;
@@ -197,4 +211,3 @@ h3 {
     }
 }
 @import 'media';
-@import 'mixin';
