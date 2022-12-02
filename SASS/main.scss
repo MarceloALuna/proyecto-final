@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgb(205, 247, 233);
+}
+#headerLogo {
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    .inicio {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        flex-direction: column;
+    }
+}
+h1 {
+    font-size: 70px;
+    font-style: italic;
+    color: rgb(10, 75, 10);
+    display: inline;
+    font-family: fantasy;
+    text-align: center;
+}
+h2 {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 20px ;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    margin: 5px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#menu-inicio {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-variant: normal;
+    & :hover {
+        background: radial-gradient(green, black);
+        font-size: 60px;
+    }
+    & .menu-nos {
+        @include borderInset;
+        margin: 10px;
+        padding: 20px;
+        background-image: url(../IMG/sucuMenu1.jpg);
+        background-size: cover;
+    }
+    & .menu-tipo {
+        @include borderInset;
+        margin: 10px;
+        padding: 20px;
+        background-image: url(../IMG/sucuMenu2.jpg);
+        background-size: cover;
+    }
+    & .menu-cuid {
+        @include borderInset;
+        margin: 10px;
+        padding: 20px;
+        background-image: url(../IMG/sucuMenu3.jpg);
+        background-size: cover;
+    }
+    & .menu-cont {
+        @include borderInset;
+        margin: 10px;
+        padding: 20px;
+        background-image: url(../IMG/sucuMenu.jpg);
+        background-size: cover;
+    }
+}
+#menu nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+    & li a {
+        text-decoration: none;
+        background-color: rgb(13, 104, 36);
+        margin: 0 10px;
+        padding: 5px;
+        color: white;
+        border: solid;
+        border-color: rgb(1, 49, 16);
+        border-radius: 20px 20px 20px 5px;
+        border-style: inset;
+        &:hover {
+            background-color: rgb(11, 4, 105);
+            color: aquamarine;
+        }
+    }
+}
+#videoInfo {
+    margin: 25px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: start;
+    & .video  {
+        font-size: 15px;
+        color: azure;
+        justify-items: center;
+        margin-top: 20px;
+        padding-top: 20px;
+        & h3 {
+            @include borderInset;
+            background-color: rgb(10, 75, 10);
+            align-items: start;
+        }
+        & p {
+            @include borderInset;
+            background-color: rgb(10, 75, 10);
+            font-size: 12px;
+            margin: 5px;
+        }
+    }
+}
+.footer {
+    background-color: rgb(13, 104, 36);
+    color: whitesmoke;
+    text-align: center;
+    margin: 5px;
+    padding: 40px;
+    &.footerImg {
+        display: inline;
+    }
+    & div p {
+        display: inline;
+        margin: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+.contacto {
+    @include borderInset;
+    box-sizing: border-box;
+    display: block;
+    margin: 50px 400px;
+    padding: 50px 50px;
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+    &.contactFormat {
+        display: inline;
+    }
+}
+.ubicacion {
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    & p {
+        align-items: center;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 10px;
+        padding: 5px;
+    }
+}
+#cuidados {
+    margin: 5px;
+    padding: 50px 350px;
+    & div h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(13, 104, 36);
+        color: rgb(253, 253, 254);
+        @include borderInset;
+    }
+    & div p {
+        @include borderInset;
+        background-color: rgb(13, 104, 36);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 15px;
+        padding: 10px;
+        color: antiquewhite;
+    }
+    &.cuidadosTruco p {
+        font-style: oblique;
+        color: azure;
+    }
+}
+@import 'media';
+@import 'mixin';

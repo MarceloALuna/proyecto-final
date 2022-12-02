@@ -1,0 +1,34 @@
+@media (max-width: 767px) {
+    .ubicacion iframe {
+        width: 400px;
+        height: 250px;
+    }
+    .video iframe {
+        width: 400px;
+        height: 250px;
+    }
+    #menu-inicio {
+        font-size: 30px;
+    }
+    #menu-inicio :hover {
+        font-size: 40px;
+    }
+}
+@media (min-width: 768px) {
+    .inicio {
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (min-width: 1200px) {
+    .video {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+    #menu-inicio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 150px;
+    }
+}
