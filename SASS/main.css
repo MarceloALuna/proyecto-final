@@ -258,8 +258,8 @@ h3 {
     font-size: 40px;
   }
   #menu nav ul {
-    gap: 5px;
-    padding: 5px;
+    gap: 3px;
+    padding: 3px;
   }
   #menu nav ul li a {
     margin: 5px;
