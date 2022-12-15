@@ -68,6 +68,9 @@ h3 {
   background-image: url(../IMG/sucuMenu1.jpg);
   background-size: cover;
 }
+#menu-inicio .menu-nos a {
+  text-decoration: none;
+}
 #menu-inicio .menu-tipo {
   border: 4px solid rgb(1, 49, 16);
   border-radius: 10px;
@@ -76,6 +79,9 @@ h3 {
   padding: 20px;
   background-image: url(../IMG/sucuMenu2.jpg);
   background-size: cover;
+}
+#menu-inicio .menu-tipo a {
+  text-decoration: none;
 }
 #menu-inicio .menu-cuid {
   border: 4px solid rgb(1, 49, 16);
@@ -86,6 +92,9 @@ h3 {
   background-image: url(../IMG/sucuMenu3.jpg);
   background-size: cover;
 }
+#menu-inicio .menu-cuid a {
+  text-decoration: none;
+}
 #menu-inicio .menu-cont {
   border: 4px solid rgb(1, 49, 16);
   border-radius: 10px;
@@ -94,6 +103,9 @@ h3 {
   padding: 20px;
   background-image: url(../IMG/sucuMenu.jpg);
   background-size: cover;
+}
+#menu-inicio .menu-cont a {
+  text-decoration: none;
 }
 
 #menu nav ul {
@@ -193,6 +205,9 @@ h3 {
 .contacto fieldset div .mensajeArea {
   padding: 10px;
 }
+.contacto div .mensajeArea {
+  padding: 10px;
+}
 
 .ubicacion {
   display: flex;
@@ -264,6 +279,10 @@ h3 {
   #menu nav ul li a {
     margin: 5px;
     font-size: 12px;
+  }
+  .contacto {
+    font-size: 12px;
+    padding: 30px 30px;
   }
 }
 @media (min-width: 768px) {

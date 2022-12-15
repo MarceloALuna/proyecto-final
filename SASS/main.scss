@@ -61,6 +61,9 @@ h3 {
         padding: 20px;
         background-image: url(../IMG/sucuMenu1.jpg);
         background-size: cover;
+        a {
+            text-decoration: none;
+        }
     }
     & .menu-tipo {
         @include borderInset;
@@ -68,6 +71,9 @@ h3 {
         padding: 20px;
         background-image: url(../IMG/sucuMenu2.jpg);
         background-size: cover;
+        a {
+            text-decoration: none;
+        }
     }
     & .menu-cuid {
         @include borderInset;
@@ -75,6 +81,9 @@ h3 {
         padding: 20px;
         background-image: url(../IMG/sucuMenu3.jpg);
         background-size: cover;
+        a {
+            text-decoration: none;
+        }
     }
     & .menu-cont {
         @include borderInset;
@@ -82,6 +91,9 @@ h3 {
         padding: 20px;
         background-image: url(../IMG/sucuMenu.jpg);
         background-size: cover;
+        a {
+            text-decoration: none;
+        }
     }
 }
 #menu nav ul {
@@ -168,6 +180,9 @@ h3 {
         line-height: 1.5px;
     }
     & fieldset div .mensajeArea {
+        padding: 10px;
+    }
+    & div .mensajeArea {
         padding: 10px;
     }
 }
