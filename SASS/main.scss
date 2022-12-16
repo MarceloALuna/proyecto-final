@@ -20,15 +20,15 @@ body.backG {
         justify-content: center;
         margin: 30px;
         flex-direction: column;
+        .ini {
+            font-size: 70px;
+            font-style: italic;
+            color: rgb(10, 75, 10);
+            display: inline;
+            font-family: fantasy;
+            text-align: center;
+        }
     }
-}
-h1 {
-    font-size: 70px;
-    font-style: italic;
-    color: rgb(10, 75, 10);
-    display: inline;
-    font-family: fantasy;
-    text-align: center;
 }
 h2 {
     display: block;
